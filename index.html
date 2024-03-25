@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta author="Shubham Sharma" content="Reeses Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="chocolate.png" type="image/x-icon">
+    <title>Reeses Candy</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Reeses</h1>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2 class="offscreen">Hero Section</h2>
+
+            <section class="hero_content">
+                <h2>Treat Yourself to Reese's Chocolate!</h2>
+                <p>
+                    Love chocolate? Love peanut butter? You'll adore Reese's Chocolate! It's creamy peanut butter
+                    wrapped in yummy milk chocolate. Perfect for when you need a sweet pick-me-up or just want to enjoy
+                    a delicious treat. Get your hands on Reese's Chocolate and make every moment sweeter!
+
+                </p>
+                <button class="btn">Buy Now</button>
+            </section>
+
+            <section class="hero_image">
+                <h2 class="offscreen">Reeses Chocolate</h2>
+                <img src="promo.png" alt="Reeses chocolate" width="1024" height="1024">
+            </section>
+        </section>
+
+
+        <section class="About" id="About">
+            <h2 class="About_h2">About</h2>
+            <section class="About_content">
+                <h2 class="offscreen">About Content</h2>
+                <p>
+                    Reese's Chocolate has been delighting taste buds since the 1920s, when it was created by H.B. Reese
+                    in Pennsylvania. Mixing creamy peanut butter with smooth milk chocolate, Reese's became a local hit.
+                    Today, it's a worldwide favorite, loved for its perfect blend of flavors. From a small kitchen to
+                    candy aisles everywhere, Reese's Chocolate is a delicious piece of history you can enjoy anytime!
+                </p>
+                <img src="shop.png" alt="Reeses Chocolate" width="400" height="400">
+
+
+            </section>
+
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="contact_h2">Contact Us</h2>
+            <form>
+                <p class="contact_p">
+                    <label class="contact_label" for="name">Name:</label>
+                    <input class="contact_input" type="text" name="name" id="name" placeholder="your name" required>
+                </p>
+                <p class="contact_p">
+                    <label class="contact_label" for="email">Email:</label>
+                    <input class="contact_input" type="email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p class="contact_p">
+                    <label class="contact_label" for="message">Your Message:</label>
+                    <br>
+                    <textarea class="contact_textarea" name="message" id="message" cols="30" rows="10"
+                        placeholder="Type your message here"></textarea>
+                </p>
+                <button class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+        <img class="footer-log" src="logo.png" alt="logo" width="200" height="200" >
+        <section class="nav-form">
+            <form action="nothing.php" id="Pricing">
+                <h2 class="offscreen">Quick Contact</h2>
+                <label for="email">Contact Us</label>
+                <input type="text" placeholder="example@gmail.com" >
+                <input type="submit" class="btn-s" >
+            </form>
+        </section>
+        <p>&copy; Reeses 2023</p>
+    </footer>
+</body>
+
+</html>
